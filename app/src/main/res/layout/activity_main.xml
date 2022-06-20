@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Music Player"
+        android:layout_marginTop="40pt"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:src="@drawable/music_icon"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:text="Play"
+        android:id="@+id/play"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Stop"
+        android:background="@drawable/button"
+        android:id="@+id/stop"/>
+
+
+
+</LinearLayout>
+
